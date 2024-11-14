@@ -1,0 +1,112 @@
+.card-container {
+    width: 100%;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+    justify-content: center; /* Ensure cards are centered */
+}
+
+.card, .cards {
+    position: relative;
+    
+}
+
+.card img, .cards img {
+    width: 300px; /* Ensure images fill the card width */
+    height: 200px; /* Maintain aspect ratio */
+    border-radius: 12px;
+}
+
+.card .item-name, .cards .item-name {
+    width: 100%; /* Ensure item name takes full width */
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    bottom: 2px;
+    filter: brightness(80%);
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+    transition: 0.3s ease-in;
+}
+
+.card:hover .item-name, .cards:hover .item-name {
+    opacity: 1;
+    transform: translateY(-0px);
+}
+
+.cuisin-name {
+    display: flex;
+    width: 30%;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cuisin-name h1 {
+    text-transform: capitalize;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .card-box {
+        gap: 15px; /* Reduced gap between cards on smaller screens */
+    }
+
+    .card, .cards {
+        width: 100%; /* Make each card take full width on smaller screens */
+        max-width: 350px; /* Limit the width on larger small screens */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+    }
+
+    .card img, .cards img {
+        width: 100%; /* Ensure images are responsive */
+        height: 200px; /* Maintain aspect ratio */
+    }
+
+    .card .item-name, .cards .item-name {
+        font-size: 18px; /* Smaller font size */
+        padding: 8px; /* Slightly reduced padding */
+    }
+
+    .cuisin-name {
+        width: 100%; /* Full width for cuisin name */
+        margin-bottom: 10px;
+        justify-content: center; /* Center the cuisin name */
+    }
+}
+
+@media (max-width: 480px) {
+    .card-box {
+        flex-direction: column; /* Stack the cards vertically */
+        gap: 15px; /* Smaller gap between stacked cards */
+        justify-content: center; /* Center cards in the column layout */
+    }
+
+    .card, .cards {
+        width: 100%; /* Full width cards on very small screens */
+        max-width: 100%; /* Ensure no card exceeds screen width */
+        margin-bottom: 10px; /* Reduce bottom margin */
+    }
+
+    .card img, .cards img {
+        width: 100%; /* Ensure full-width images */
+        height: 200px; /* Maintain aspect ratio */
+    }
+
+    .card .item-name, .cards .item-name {
+        font-size: 16px; /* Even smaller font size for mobile */
+        padding: 6px; /* Less padding on small screens */
+    }
+
+    .cuisin-name {
+        width: 100%; /* Take full width */
+        margin-bottom: 5px; /* Reduced bottom margin */
+        gap: 10px;
+    }
+}

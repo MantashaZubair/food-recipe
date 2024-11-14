@@ -1,0 +1,70 @@
+{
+    "id": 1,
+    "category": ["veg", "starter", "popular food"],
+    "itemName": "Paneer Tikka",
+    "instruction": "Marinate paneer cubes, grill until golden brown, and serve with green chutney.",
+    "image": "paneer_tikka.jpg",
+    "ingredients": [
+      "Paneer",
+      "Yogurt",
+      "Spices",
+      "Lemon Juice",
+      "Vegetables"
+    ]
+  },
+  {
+    "id": 2,
+    "category": ["nonveg", "thai", "regular food"],
+    "itemName": "Thai Chicken Curry",
+    "instruction": "Cook chicken with Thai spices, coconut milk, and serve with jasmine rice.",
+    "image": "thai_chicken_curry.jpg",
+    "ingredients": [
+      "Chicken",
+      "Coconut Milk",
+      "Thai Curry Paste",
+      "Basil",
+      "Lemongrass"
+    ]
+  },
+  {
+    "id": 3,
+    "category": ["veg", "italian", "popular food"],
+    "itemName": "Margherita Pizza",
+    "instruction": "Bake a thin crust pizza with fresh tomato sauce, mozzarella, and basil.",
+    "image": "margherita_pizza.jpg",
+    "ingredients": [
+      "Pizza Dough",
+      "Tomato Sauce",
+      "Mozzarella",
+      "Basil",
+      "Olive Oil"
+    ]
+  },
+  {
+    "id": 4,
+    "category": ["nonveg", "chinese", "regular food"],
+    "itemName": "Kung Pao Chicken",
+    "instruction": "Stir-fry chicken with peanuts, vegetables, and spicy Kung Pao sauce.",
+    "image": "kung_pao_chicken.jpg",
+    "ingredients": [
+      "Chicken",
+      "Peanuts",
+      "Bell Peppers",
+      "Soy Sauce",
+      "Chili Peppers"
+    ]
+  },
+  {
+    "id": 5,
+    "category": ["veg", "desserts", "popular food"],
+    "itemName": "Gulab Jamun",
+    "instruction": "Fry milk-based dough balls and soak them in sugar syrup.",
+    "image": "gulab_jamun.jpg",
+    "ingredients": [
+      "Milk Powder",
+      "Flour",
+      "Sugar",
+      "Cardamom",
+      "Rose Water"
+    ]
+  }
