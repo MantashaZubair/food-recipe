@@ -1,7 +1,6 @@
 import React from 'react'
 import Home from './Home'
 import Cusine from './Cusine'
-import Searched from './searched'
 import Recipe from './Recipe'
 import { Navigate, Route, Routes } from 'react-router-dom'
 
