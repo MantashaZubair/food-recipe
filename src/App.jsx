@@ -4,7 +4,7 @@ import data from "./assets/data.json"
 import Category from './components/Category'
 import Navbar from './components/Navbar'
 import Search from './components/Search'
-import Page from './pages/Page.jsx'
+import Page from './pages/Page'
 import Breadcrumbs from './components/Breadcrumbs'
 import { useLocation } from 'react-router-dom'
 function App() {
